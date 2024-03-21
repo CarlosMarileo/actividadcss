@@ -1,0 +1,55 @@
+:root{
+    --color1:#00d7f4;
+    --color2:#ffdf01;
+    --color3:#fd7b03;
+    --color4:#ff0014;
+    --color5:#343434;
+    --color6:#747474;
+    --color7:#ffffff;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*caja padre*/
+.caja{
+    display: flex;
+}
+/*columna izquierda*/
+.columna20{
+    width: 20%;
+    background-color: var(--color5);
+    padding-top: 50px;
+}
+
+.columna80{
+    width: 80%;
+}
+.boton{
+    
+    text-align: center;
+    padding: 30px 30px; 
+}
+
+a{
+    color: var(--color7);
+    text-decoration: none;
+}
+/*columna derecha*/
+.caja25{
+    height: 25vh;
+    padding: 30px;
+    color: var(--color7);
+}
+.caja1{
+    background-color: var(--color1);
+}
+.caja2{
+    background-color: var(--color2);
+}
+.caja3{
+    background-color: var(--color3);
+}
+.caja4{
+    background-color: var(--color4);
+}
